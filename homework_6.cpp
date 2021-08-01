@@ -21,7 +21,7 @@ T input_user(const char* promt) {
 
 // lesson 2
 std::ostream& endll(std::ostream& stream) {
-   stream << '\n' << '\n';
+   stream << '\n' << std::endl;
    return stream;
 }
 
