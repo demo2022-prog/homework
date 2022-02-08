@@ -12,7 +12,7 @@ public:
 
 class Menu {
 public:
-    virtual void info(Visitor *) = 0;
+    virtual void info(Visitor*) = 0;
 };
 
 class Ingredient : public Menu {
@@ -53,7 +53,7 @@ public:
     }
 
 
-    void info(Visitor * v) override { v->visit(this); }
+    void info(Visitor* v) override { v->visit(this); }
 };
 
 class MenuItem : public Menu {
