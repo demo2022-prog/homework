@@ -46,12 +46,20 @@ public:
     void add();
 
     void changeSpeed(int change){
+<<<<<<< HEAD
         add(); // сохраняем предыдущее состояние
+=======
+        add(); // сохраняем предидущее состояние
+>>>>>>> 71cc22cf1651689295995595f2f568b80ce7e4e5
         speed += change;
     }
 
     void changeHp(float change){
+<<<<<<< HEAD
         add(); // сохраняем предыдущее состояние
+=======
+        add(); // сохраняем предидущее состояние
+>>>>>>> 71cc22cf1651689295995595f2f568b80ce7e4e5
         hp += change;
     }
 
